@@ -1,0 +1,898 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #e5e5e5;
+  padding: 40px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  background: #ffffff;
+  width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Main content */
+.main-content {
+  padding: 88px;
+}
+
+.main-content-titel {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin: 0 0 8px 0;
+}
+
+/* About me */
+.my-profession {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin: 0 0 18px 0;
+}
+
+.my-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin: 0 0 28px 0;
+}
+
+.my-descr {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #595959;
+  width: 525px;
+  /* background-color: crimson; */
+}
+
+.about-me-conteiner {
+  margin-bottom: 64px;
+}
+
+/* Projects */
+
+.projects-item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.project-list {
+  padding: 0 0 0 14px;
+  margin: 0;
+}
+
+.prolects-conteiner {
+  margin-bottom: 48px;
+}
+
+.projects-item-descr {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.projects-item-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #005fff;
+}
+
+.projects-item-link {
+  font-size: 12px;
+  line-height: 20px;
+  /* background-color: crimson; */
+}
+
+/* Work experience */
+.work-experience-conteiner {
+  margin-bottom: 44px;
+  /* background-color: #6d9bf5; */
+}
+
+.work-experience-position {
+  display: block;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin: 0;
+  text-align: justify;
+  /* background-color: crimson; */
+}
+
+.work-experience-position {
+  margin-bottom: 16px;
+}
+
+.work-experience-company {
+  display: block;
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #6d9bf5;
+}
+
+.work-period {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  color: #6e6e6e;
+  /* background-color: crimson; */
+}
+
+.work-achievement {
+  display: block;
+  text-align: justify;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #6e6e6e;
+}
+
+.work-duties {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.work-duties-list {
+  padding: 0 0 0 14px;
+  margin: 0;
+}
+
+.work-achievement-container {
+  padding-left: 20px;
+}
+
+.work-achievement-item {
+  color: #6e6e6e;
+}
+
+.work-achievement-text {
+  display: block;
+  font-style: normal;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #383838;
+  /* letter-spacing: 20%; */
+  padding-bottom: 5px;
+  /* padding-left: 5px; */
+}
+
+/* .work-achievement-item::marker {
+  font-size: 0.8em;
+} */
+
+/* Education */
+
+.education-conteiner {
+  margin: 0;
+  padding: 33px 0 0 0;
+}
+
+.main-content-education {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin: 0;
+}
+
+.education-item {
+  /* display: block; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6d9bf5;
+  /* background-color: crimson; */
+}
+
+.education-profesion {
+  font-style: normal;
+  /* font-weight: 400; */
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  /* background-color: crimson; */
+}
+
+.qualities-conteiner {
+  margin: 48px 40px 10px 40px;
+}
+
+.person-text {
+  display: block;
+  text-align: justify;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #383838;
+}
+
+/* Sidebar */
+
+.sidebar {
+  width: 370px;
+  background: #e0ebfe;
+  padding-right: 5px;
+}
+
+/* .my-photo {
+  margin-top: 40px;
+} */
+
+.contact-container,
+.tech-skills-container,
+.soft-conteiner {
+  margin: 48px 0 0 40px;
+}
+
+.sidebar-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #161d2a;
+  margin-bottom: 8px;
+}
+
+/* Contacts */
+.contacts-type {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+  margin-right: 8px;
+}
+
+.contacts-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 3px 0;
+}
+
+.icon-phone,
+.icon-mail {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  display: block;
+}
+
+.contacts-number {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  /* color: #161d2a; */
+  color: #2979ff;
+  /* background-color: crimson; */
+}
+
+.contacts-email {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #2979ff;
+  /* background-color: crimson; */
+}
+
+/* Skills */
+.skills-list {
+  margin: 0;
+  padding: 0 0 0 12px;
+}
+
+.skills-list-item {
+  color: #6d9bf5;
+}
+
+.skills-list-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #161d2a;
+  /* background-color: crimson; */
+}
+
+.person-text {
+  font-size: 12px;
+  /* background-color: crimson; */
+}
+
+/* Soft skills*/
+.soft-list {
+  margin: 0;
+  padding: 0 0 0 12px;
+}
+
+.soft-list-item {
+  color: #6d9bf5;
+}
+
+.soft-list-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #161d2a;
+  /* background-color: crimson; */
+}
+
+/* Медіа-запити для адаптивності */
+
+/* Мобільна версія - за замовчуванням прихована */
+.mobile-version {
+  display: none;
+}
+
+/* Мобільний заголовок - за замовчуванням без фону */
+.mobile-header {
+  background-color: transparent;
+}
+
+/* Додаткова інформація для десктопу - за замовчуванням прихована */
+.additional-info-desktop {
+  display: none;
+}
+
+/* Спеціальні стилі для мобільної додаткової інформації */
+.mobile-additional .mobile-title {
+  color: #000000;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+/* Для екранів від 769px до 1199px - проміжний розмір */
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+  body {
+    padding: 30px;
+  }
+
+  .wrapper {
+    width: 100%;
+    max-width: 1000px;
+    flex-direction: row-reverse;
+  }
+
+  .main-content {
+    padding: 60px 20px;
+    width: calc(100% - 340px);
+  }
+
+  .sidebar {
+    width: 340px;
+    padding-right: 5px;
+  }
+
+  .my-photo {
+    width: 100%;
+    max-width: 340px;
+    height: auto;
+  }
+
+  .my-name {
+    font-size: 38px;
+    line-height: 46px;
+  }
+
+  .my-descr {
+    width: 100%;
+    max-width: 450px;
+    /* background-color: #ff8d29; */
+  }
+
+  .contacts-number {
+    font-size: 13px;
+    line-height: 20px;
+    /* background-color: crimson; */
+  }
+
+  .contacts-email {
+    font-size: 13px;
+    line-height: 20px;
+    /* background-color: rgb(199, 222, 135); */
+  }
+
+  .projects-item-link {
+    font-size: 13px;
+    line-height: 20px;
+    /* background-color: rgb(199, 222, 135); */
+  }
+
+  /* Приховуємо мобільну версію */
+  .mobile-version {
+    display: none;
+  }
+
+  /* Мобільний заголовок без фону */
+  .mobile-header {
+    background-color: transparent;
+  }
+
+  /* Приховуємо додаткову інформацію для десктопу */
+  .additional-info-desktop {
+    display: none;
+  }
+}
+
+/* Для екранів 768px - дві колонки */
+@media screen and (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+
+  .wrapper {
+    width: 100%;
+    max-width: 768px;
+    flex-direction: column;
+  }
+
+  .main-content {
+    padding: 40px 20px;
+    order: 2;
+  }
+
+  .sidebar {
+    width: 100%;
+    order: 1;
+    display: none;
+  }
+
+  .my-photo {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+  }
+
+  .contact-container,
+  .tech-skills-container,
+  .soft-conteiner {
+    margin: 24px 20px;
+    padding-left: 20px;
+  }
+
+  .my-name {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .my-descr {
+    width: 100%;
+  }
+
+  .contacts-number {
+    font-size: 13px;
+    line-height: 20px;
+    /* background-color: #4dff29; */
+  }
+
+  .contacts-email {
+    font-size: 13px;
+    line-height: 20px;
+    /* background-color: #4dff29; */
+  }
+
+  .about-me-conteiner {
+    margin-bottom: 40px;
+  }
+
+  .prolects-conteiner {
+    margin-bottom: 32px;
+  }
+
+  .work-experience-conteiner {
+    margin-bottom: 32px;
+  }
+
+  .work-achievement-container {
+    padding-left: 15px;
+  }
+
+  /* Показуємо мобільну версію */
+  .mobile-version {
+    display: block;
+    margin-bottom: 40px;
+  }
+
+  /* Мобільний заголовок з фоном на всю ширину до верху */
+  .mobile-header {
+    background-color: #e0ebfe;
+    margin: -40px -20px 30px -20px;
+    padding: 20px 20px 10px 20px;
+  }
+
+  /* Показуємо додаткову інформацію для десктопу */
+  .additional-info-desktop {
+    display: block;
+    margin-bottom: 32px;
+  }
+
+  /* Стилі для мобільної версії на 768px */
+  .mobile-photo-container {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .mobile-photo {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .mobile-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #161d2a;
+    margin: 25px 0 15px 0;
+  }
+
+  .mobile-contacts,
+  .mobile-tech-skills,
+  .mobile-tools,
+  .mobile-qualities,
+  .mobile-additional {
+    margin-bottom: 25px;
+  }
+
+  /* Стилі для блоку досвіду роботи на 768px */
+  .work-experience-company {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .work-experience-position {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .work-achievement-text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .work-period {
+    font-size: 11px;
+    line-height: 14px;
+  }
+
+  /* Стилі для блоку освіти на 768px */
+  .education-item {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .education-profesion {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  /* Стилі для додаткової інформації на 768px */
+  .mobile-additional .person-text {
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  /* Стилі для розділу проекти на 768px */
+  .projects-item {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .projects-item-descr {
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .projects-item-link {
+    font-size: 12px;
+    line-height: 20px;
+    /* background-color: rgb(222, 135, 135); */
+  }
+
+  /* Стилі для особистих якостей на 768px */
+  .person-text {
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  /* Стилі для опису на 768px */
+  .my-descr {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  /* Стилі для технічних навичок та інструментів на 768px */
+  .skills-list-text {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .soft-list-text {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
+
+/* Для екранів 375px - одна колонка */
+@media screen and (max-width: 375px) {
+  body {
+    padding: 10px;
+  }
+
+  .wrapper {
+    width: 100%;
+    max-width: 375px;
+    flex-direction: column;
+  }
+
+  .main-content {
+    padding: 20px 15px;
+    order: 2;
+  }
+
+  .sidebar {
+    width: 100%;
+    order: 1;
+    display: none;
+  }
+
+  .my-photo {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin: 15px auto;
+    display: block;
+  }
+
+  .contact-container,
+  .tech-skills-container,
+  .soft-conteiner {
+    margin: 20px 15px;
+    padding-left: 20px;
+  }
+
+  .my-name {
+    font-size: 28px;
+    line-height: 35px;
+    margin: 0 0 20px 0;
+  }
+
+  .my-descr {
+    width: 100%;
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .person-text {
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .contacts-number {
+    font-size: 13px;
+    line-height: 20px;
+    /* background-color: #ac72ac; */
+  }
+
+  .contacts-email {
+    font-size: 13px;
+    line-height: 20px;
+    /* background-color: #ac72ac; */
+  }
+
+  .main-content-titel,
+  .sidebar-title,
+  .main-content-education {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .work-experience-position,
+  .work-experience-company {
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+  .work-achievement-text {
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+  .skills-list-text,
+  .soft-list-text {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .about-me-conteiner {
+    margin-bottom: 30px;
+  }
+
+  .prolects-conteiner {
+    margin-bottom: 25px;
+  }
+
+  .work-experience-conteiner {
+    margin-bottom: 25px;
+  }
+
+  .work-achievement-container {
+    padding-left: 12px;
+  }
+
+  .project-list {
+    padding: 0 0 0 10px;
+  }
+
+  .skills-list,
+  .soft-list {
+    padding: 0 0 0 10px;
+  }
+
+  .contacts-item {
+    gap: 8px;
+  }
+
+  .icon-phone,
+  .icon-mail {
+    width: 14px;
+    height: 14px;
+  }
+
+  /* Показуємо мобільну версію */
+  .mobile-version {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  /* Мобільний заголовок з фоном на всю ширину до верху */
+  .mobile-header {
+    background-color: #e0ebfe;
+    margin: -20px -15px 25px -15px;
+    padding: 20px 15px 10px 15px;
+  }
+
+  /* Показуємо додаткову інформацію для десктопу */
+  .additional-info-desktop {
+    display: block;
+    margin-bottom: 25px;
+  }
+
+  /* Стилі для мобільної версії */
+  .mobile-photo-container {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .mobile-photo {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .mobile-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #161d2a;
+    margin: 20px 0 12px 0;
+  }
+
+  .mobile-contacts,
+  .mobile-tech-skills,
+  .mobile-tools,
+  .mobile-qualities,
+  .mobile-additional {
+    margin-bottom: 20px;
+  }
+
+  /* Спеціальні стилі для мобільної додаткової інформації */
+  .mobile-additional .mobile-title {
+    color: #000000;
+    font-size: 22px;
+    line-height: 27px;
+  }
+
+  .mobile-additional .person-text {
+    font-size: 13px;
+    line-height: 16px;
+    color: #383838;
+  }
+
+  /* Стилі для блоку досвіду роботи на 375px */
+  .work-experience-company {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .work-experience-position {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .work-achievement-text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .work-period {
+    font-size: 11px;
+    line-height: 14px;
+  }
+
+  /* Стилі для блоку освіти на 375px */
+  .education-item {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .education-profesion {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  /* Стилі для додаткової інформації на 375px */
+  .mobile-additional .person-text {
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  /* Стилі для розділу проекти на 375px */
+  .projects-item {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .projects-item-descr {
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .projects-item-link {
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
