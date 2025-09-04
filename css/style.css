@@ -245,7 +245,7 @@ body {
 .sidebar {
   width: 370px;
   background: #e0ebfe;
-  padding-right: 5px;
+  /* padding-right: 5px; */
 }
 
 /* .my-photo {
@@ -397,7 +397,7 @@ body {
 
   .sidebar {
     width: 340px;
-    padding-right: 5px;
+    /* padding-right: 5px; */
   }
 
   .my-photo {
