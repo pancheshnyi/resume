@@ -57,7 +57,9 @@ body {
 }
 
 .about-me-conteiner {
-  margin-bottom: 64px;
+  /* margin-bottom: 64px; */
+  margin-bottom: 50px;
+  /* background-color: #005fff; */
 }
 
 /* Projects */
@@ -746,7 +748,8 @@ body {
   }
 
   .about-me-conteiner {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+    margin-bottom: 25px;
   }
 
   .prolects-conteiner {
