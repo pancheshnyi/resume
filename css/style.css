@@ -47,12 +47,14 @@ body {
 }
 
 .my-descr {
+  /* display: block; */
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 24px;
+  text-align: justify;
   /* color: #595959; */
-  width: 525px;
+  /* width: 525px; */
   /* background-color: crimson; */
 }
 
@@ -415,7 +417,7 @@ body {
 
   .my-descr {
     width: 100%;
-    max-width: 450px;
+    /* max-width: 450px; */
     /* background-color: #ff8d29; */
   }
 
