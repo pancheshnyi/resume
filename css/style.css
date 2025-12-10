@@ -16,6 +16,8 @@ body {
 /* Main content */
 .main-content {
   padding: 88px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .main-content-titel {
@@ -39,6 +41,7 @@ body {
 
 .my-name {
   font-style: normal;
+  text-align: right;
   font-weight: 700;
   font-size: 45px;
   line-height: 55px;
@@ -395,7 +398,8 @@ body {
   }
 
   .main-content {
-    padding: 60px 20px;
+    /* padding: 60px 20px; */
+    padding: 5px 20px;
     width: calc(100% - 340px);
   }
 
